@@ -1,8 +1,6 @@
 import 'package:flutter_food_delivery_ui/data/food_data.dart';
 import 'package:flutter_food_delivery_ui/data/restaurant_data.dart';
-import 'package:flutter_food_delivery_ui/models/food.dart';
 import 'package:flutter_food_delivery_ui/models/order.dart';
-import 'package:flutter_food_delivery_ui/models/restaurant.dart';
 import 'package:flutter_food_delivery_ui/models/user.dart';
 
 // Food
