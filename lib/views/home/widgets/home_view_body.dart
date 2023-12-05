@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_food_delivery_ui/views/home/widgets/custom_text_field.dart';
+import 'package:flutter_food_delivery_ui/views/home/widgets/recent_orders.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 class HomeViewBody extends StatelessWidget {
@@ -15,7 +16,11 @@ class HomeViewBody extends StatelessWidget {
         Padding(
           padding: EdgeInsets.symmetric(horizontal: 16.w),
           child: CustomTextField(),
-        )
+        ),
+        SizedBox(
+          height: 24.h,
+        ),
+        RecentOrders()
       ],
     );
   }
