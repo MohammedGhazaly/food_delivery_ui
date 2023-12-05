@@ -35,11 +35,14 @@ class NerbyRestaurants extends StatelessWidget {
               children: [
                 ClipRRect(
                   borderRadius: BorderRadius.circular(16.r),
-                  child: Image.asset(
-                    e.imageUrl,
-                    width: 125.h,
-                    height: 135.h,
-                    fit: BoxFit.fill,
+                  child: Hero(
+                    tag: e.imageUrl,
+                    child: Image.asset(
+                      e.imageUrl,
+                      width: 125.h,
+                      height: 135.h,
+                      fit: BoxFit.fill,
+                    ),
                   ),
                 ),
                 Expanded(
