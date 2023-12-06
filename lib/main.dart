@@ -32,7 +32,10 @@ class FoodApp extends StatelessWidget {
           ),
           title: 'Food delivery app',
           initialRoute: HomeView.routeName,
-          routes: {HomeView.routeName: (context) => const HomeView()},
+          routes: {
+            HomeView.routeName: (context) => const HomeView(),
+            HomeView.routeName: (context) => const HomeView(),
+          },
         );
       },
     );
